@@ -8,9 +8,11 @@ public class aula36_8 {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
+		System.out.println("Digite o valor do seu sálario e descubra se você deve ou não pagar imposto");
+	
 		double salario = sc.nextDouble();
-		
 		double imposto;
+		
 		if (salario <= 2000.0) {
 			imposto = 0.0;
 		}
@@ -33,4 +35,5 @@ public class aula36_8 {
 		
 		sc.close();
 	}
+
 }
